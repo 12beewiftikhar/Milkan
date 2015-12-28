@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/Go"
+        android:onClick="onClick"
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:elevation="@dimen/abc_button_padding_horizontal_material"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/GetID"
+        android:layout_alignEnd="@+id/GetID" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/GetName"
+        android:backgroundTint="@color/colorAccent"
+        android:elevation="@dimen/abc_switch_padding"
+        android:hint="Enter Your Name"
+        android:layout_marginBottom="55dp"
+        android:layout_above="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/GetID"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="Enter your Password"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/GetName" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/closed"
+        android:id="@+id/imageView3"
+        android:layout_alignBottom="@+id/GetID"
+        android:layout_toStartOf="@+id/GetID" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/user168"
+        android:id="@+id/imageView4"
+        android:layout_alignBottom="@+id/GetName"
+        android:layout_alignStart="@+id/imageView3" />
+
+</RelativeLayout>

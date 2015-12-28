@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Milkan</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="milkUnits">
+        <item>KGs</item>
+        <item>Litres</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
