@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\classes-4067d2bd2e35efc9bdc42b237bd7dd4852b85211.jar" />
+    </item>
+    <item
+        jar="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\classes-52a1bc9c1c57da5ab34f6c29c2c9ad875c140736.jar" />
+    </item>
+    <item
+        jar="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\classes-a448a19bec129acf05f4ae997baa1a5fb3988b2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-2e972beed851a16bb17b87f8a446a6403444a2b2.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-160e21806fe4fcbe2b20c34d1bbde421f69a17ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\wajiha\Downloads\Milkan\app\build\intermediates\pre-dexed\debug\classes-810111919cb533ab8f3011b906ec7eecf69af38b.jar" />
+    </item>
+
+</items>
