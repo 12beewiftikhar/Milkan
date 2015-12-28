@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_x="20dp"
+        android:layout_y="25dp"
+        android:text="   Fat Content (Normal: 20-22%)"
+        android:background="@color/colorAccent"
+        android:textSize="16dp"
+        android:layout_above="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:elevation="@dimen/abc_button_padding_horizontal_material" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_x="20dp"
+        android:layout_y="205dp"
+        android:text="   Protein (Normal: 10-20%)"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16dp"
+        android:background="@color/colorAccent"
+        android:layout_above="@+id/Accept_Reject"
+        android:layout_alignStart="@+id/textView1"
+        android:backgroundTintMode="multiply"
+        android:singleLine="false"
+        android:elevation="@dimen/abc_button_padding_horizontal_material"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_x="20dp"
+        android:layout_y="115dp"
+        android:text="   PH (Normal: 4-5)"
+        android:textSize="16dp"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="13dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/textView3"
+        android:textColor="@color/colorPrimaryDark"
+        android:elevation="@dimen/abc_button_padding_horizontal_material" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_x="20dp"
+        android:layout_y="447dp"
+        android:text="Send"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignTop="@+id/button2"
+        android:layout_alignStart="@+id/Accept_Reject"
+        android:elevation="@dimen/abc_button_padding_horizontal_material" />
+
+    <RadioGroup
+        android:id="@+id/Accept_Reject"
+        android:layout_width="159dp"
+        android:layout_height="97dp"
+        android:layout_x="26dp"
+        android:layout_y="300dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/button2"
+        android:elevation="@dimen/abc_button_inset_horizontal_material">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:text="Reject"
+            android:id="@+id/Reject"
+            android:checked="false"
+            android:textSize="@dimen/abc_text_size_button_material" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accept "
+            android:id="@+id/Accept"
+            android:layout_x="24dp"
+            android:layout_y="325dp"
+            android:checked="false"
+            android:visibility="visible"
+            android:textSize="@dimen/abc_text_size_button_material" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_x="175dp"
+        android:layout_y="447dp"
+        android:text="Refresh"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/abc_text_size_button_material"
+        android:layout_below="@+id/Units"
+        android:layout_alignEnd="@+id/textView2"
+        android:elevation="@dimen/abc_button_padding_horizontal_material" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="39dp"
+        android:id="@+id/Quantity"
+        android:layout_x="30dp"
+        android:layout_y="379dp"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="Enter Quantity Purchased"
+        android:visibility="invisible"
+        android:layout_below="@+id/Accept_Reject"
+        android:layout_alignEnd="@+id/button2" />
+
+    <Spinner
+        android:layout_width="75dp"
+        android:layout_height="39dp"
+        android:id="@+id/Units"
+        android:entries="@array/milkUnits"
+        android:layout_gravity="center_horizontal"
+        android:layout_x="295dp"
+        android:layout_y="379dp"
+        android:visibility="invisible"
+        android:layout_below="@+id/Quantity"
+        android:layout_alignEnd="@+id/Quantity"
+        android:layout_alignStart="@+id/button2" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/wajiha/Downloads/Milkan/app/src/main/res/layout/list_paramters.xml -->

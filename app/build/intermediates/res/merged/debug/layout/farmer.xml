@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:clickable="true">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#09d9e0"
+        android:contextClickable="false"
+        android:subtitle="Choose a Famer Name"
+
+        android:id="@+id/view"
+        android:fillViewport="false"></Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/farmerLayout">
+
+        </LinearLayout>
+    </ScrollView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/addi"
+        android:onClick="onClick"
+        android:id="@+id/newFarmer"
+        android:elevation="@dimen/abc_text_size_button_material"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Add New Farmer"
+        android:id="@+id/famertext"
+        android:textAlignment="center"
+        android:autoText="false"
+        android:textSize="16dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/newFarmer" />
+
+
+</RelativeLayout><!-- From: file:/C:/Users/wajiha/Downloads/Milkan/app/src/main/res/layout/farmer.xml -->
